@@ -34,9 +34,10 @@ class Duration:
     # Initialize a new Duration object.
     # input: minutes as an integer
     # input: seconds as an integer
-    def __init__(self, minutes:int, seconds: int):
+    def __init__(self, minutes:int, seconds: int, hours:int):
         self.minutes = minutes
         self.seconds = seconds
+        self.hours = hours
 
 
     # Provide a developer-friendly string representation of the object.
